@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="restaurant-hb">
+        <br>
+
+        <div class="container-fluid">
+            {{!--
+            <h3>Restaurants:</h3> --}}
+
+            <table class="table table-hover text-left">
+                <tbody>
+
+                    <div class="restInfo">
+                        <div class="DbaName">
+                            <h2>{{restaurant.0.DBA_NAME}}</h2>
+                            <h4>{{restaurant.0.ADDRESS}}, {{restaurant.0.CITY}}, {{restaurant.0.STATE}} {{restaurant.0.ZIP}}</h4>
+                        </div>
+                        <br>
+                        <div class="risk" style="{{risk}}">
+                            <br>
+                            <h4>DATE: {{restaurant.0.INSPECTION_DATE}}</h4>
+                            <h4>RESULTS: {{restaurant.0.RESULTS}}</h4>
+                            <h4>RISK LEVEL: {{restaurant.0.RISK}}</h4>
+                            <br>
+                        </div>
+                    </div>
+                </tbody>
+            </table>
+        </div>
+        <div class="restInfo">
+
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1504072447719");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+
+        </div>
+
+        <div class="container-fluid">
+            <form method="get" action="/">
+                <br>
+                <button class="center btn btn-danger" type="submit">Go Back</button>
+            </form>
+        </div>
+    </div>
+</div>

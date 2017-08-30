@@ -1,0 +1,351 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #213B32;
+    background-image: url(/assets/images/glove-green.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.result-hb {
+    width: 100%;
+}
+
+.table {
+    background-color: rgba(206, 99, 9, 0.90);
+    color: #FFE201;
+}
+
+th {
+    background-color: rgba(106, 187, 8, 0.90);
+    color: white;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: white;
+    color: black;
+}
+
+.DbaName {
+    text-align: center;
+}
+
+.restInfo {
+    border: 1px solid black;
+    background-color: rgba(106, 187, 8, 0.90);
+    color: #FFE201;
+    margin: auto;
+    padding: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.risk {
+    width: 300px;
+    margin: auto;
+    background-color: rgba(255, 0, 4, 0.5);
+    text-align: center;
+}
+
+.translucent {
+    opacity: .7;
+}
+
+.slant-top {
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 50px;
+    background: #D1B900;
+    justify-content: flex-end;
+    padding-right: 0px;
+    font-family: 'Special Elite', cursive;
+}
+
+.slant-bottom {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: #D1B900;
+    height: 30px;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.title {
+    text-shadow: 2px 2px white;
+    padding-left: 10px;
+    font-family: 'Special Elite', cursive;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: -80px;
+    position: relative;
+}
+
+.main {
+    margin-top: 250px;
+}
+
+.main-heading {
+    text-shadow: .5px 1px white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 1px;
+    background: red;
+    width: 100%
+}
+
+.sub-heading {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 2px black;
+}
+
+#ca {
+    padding: 10px 5px;
+}
+
+.nav-link {
+    text-shadow: 1px 1px white;
+    font-size: 22px;
+    position: relative;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #dc3545;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.btn {
+    font-size: 26px;
+    cursor: pointer;
+
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: white;
+    color: black;
+}
+
+#map {
+    margin: 50px auto;
+    height: 70%;
+    width: 80%;
+    border: 5px solid rgba(241, 196, 15, 0.5);
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1890px) {
+    .main-heading {
+        font-size: 35px;
+    }
+    .sub-heading {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 22px;
+    }
+    body {
+        background-position: center center;
+    }
+    .main {
+        margin-top: 150px;
+    }
+    .title {
+        font-size: 50px;
+        margin-top: -105px;
+    }
+    .slant-top {
+        margin: 30px;
+        margin-left: 0px;
+    }
+    .navbar {
+        padding-top: 20px;
+        height: 30px;
+    }
+    .slant-bottom {
+        margin-bottom: 10px;
+    }
+    .footer {
+        height: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 3000px) {
+    body {
+        background-position: center center;
+    }
+    .main {
+        margin-top: 150px;
+    }
+    .title {
+        font-size: 50px;
+        margin-top: -105px;
+    }
+    .slant-top {
+        margin: 30px;
+        margin-left: 0px;
+    }
+    .navbar {
+        padding-top: 20px;
+        height: 30px;
+    }
+    .slant-bottom {
+        margin-bottom: 10px;
+    }
+    .footer {
+        height: 10px;
+    }
+}
+
+    @media only screen and (max-width: 1115px) {
+        .main {
+            margin-top: 100px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .slant-top {
+            margin-top: 50px;
+        }
+        .navbar {
+            height: 50px;
+            justify-content: center;
+        }
+        .title {
+            font-size: 40px;
+            margin-top: -100px;
+            text-align: center;
+        }
+        .main {
+            margin-top: 170px;
+        }
+        .slant-bottom {
+            display: none;
+        }
+        .footer {
+            height: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 414px) {
+        .slant-top,
+        .slant-bottom,
+        footer {
+            display: none;
+        }
+        .title {
+            margin-top: 60px;
+            text-align: center;
+            position: absolute;
+        }
+        .navbar {
+            height: 50px;
+            justify-content: center;
+            padding: 0px;
+        }
+    }
+
+    .well {
+        background-color: rgba(245, 245, 245, 0.4);
+    }
+
+.indexMain{
+    overflow-x: hidden;
+    font-size: 23px;
+    margin: 0;
+    height: 100%;
+    font-weight: 100;
+    }
+
+section{
+    position: relative;
+    margin: 0 -9999rem;
+    padding: 6.50rem 9999rem;
+    text-align: center;
+}
+
+#welcomeSection{
+    background-color: rgba(106, 187, 8, 0.70);
+    color: #ecf0f1;
+
+}
+#whySection{
+    background-color: rgba(241, 24, 15, 0.6);
+    color: rgb(86, 206, 8);
+}
+
+#chart-info{
+    background-color: rgba(8, 162, 206, 0.50);
+    color: #d35400;
+}
+
+#instructionSection{
+
+    background-color: rgba(255, 127, 0, 0.65);
+    color: rgb(0, 51, 255);
+    padding: 5.75rem 9999rem;
+}
+
+#instructionSection p, #whySection h4, #welcomeSection p{
+    padding: 0 150px;
+    text-align: left;
+
+}
+
+.instruction-list {
+    margin: 0;
+    padding: 0;
+}
+.chart-container {
+    background-color: rgba(20, 215, 218, 0.8);
+    padding: 18px;
+    position: relative;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-width: 3px;
+
+}
+#firstSelect{
+    cursor: pointer;
+}
+
+}
