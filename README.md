@@ -28,21 +28,3 @@ Cleanliness is determined as follows:
 2)	Pass or Fail inspection.
 
 With these two indicators, the user now possesses the ability to choose a clean or dirty restaurant that they would like to indulge in. 
-
-Step By Step
----
-Home Page:
-![Imgur](http://i.imgur.com/kmOBaF8.png)
-
-Viewing the results and comments:
-![Imgur](http://i.imgur.com/oTCJcqS.png)
-![Imgur](http://i.imgur.com/9qtsxFS.png)
-
-The Map:
-![Imgur](http://i.imgur.com/ayGMl2L.png)
-
-Future Add-ons
----
-User Authentication and Dashboard
-
-Linked Comment section
